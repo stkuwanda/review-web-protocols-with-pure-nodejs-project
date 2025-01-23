@@ -1,0 +1,9 @@
+OSI Model
+
+Application Layer:
+Application layer provides services to Network Applications (Chrome, Outlook, Skype)
+ with the help of application layer protocols (HTTP/S, SMTP, Telnet, FTP),.
+-FTP is the basis for file transfer service.
+-SMTP is the basis for emailing service.
+-HTTP/S is the basis for web surfing.
+-Telnet is the basis for virtual terminals.

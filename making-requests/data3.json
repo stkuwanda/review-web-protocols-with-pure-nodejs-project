@@ -1,0 +1,29 @@
+{
+  "args": {},
+  "data": {
+    "name": "Simba",
+    "race": "Black"
+  },
+  "files": {},
+  "form": {},
+  "headers": {
+    "host": "postman-echo.com",
+    "x-request-start": "t1737640687.751",
+    "connection": "close",
+    "content-length": "31",
+    "x-forwarded-proto": "https",
+    "x-forwarded-port": "443",
+    "x-amzn-trace-id": "Root=1-67924aef-2be4ed8727642f953a2a767e",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "br, gzip, deflate"
+  },
+  "json": {
+    "name": "Simba",
+    "race": "Black"
+  },
+  "url": "https://postman-echo.com/post"
+}

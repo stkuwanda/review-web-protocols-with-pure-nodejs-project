@@ -7,3 +7,18 @@ Application layer provides services to Network Applications (Chrome, Outlook, Sk
 -SMTP is the basis for emailing service.
 -HTTP/S is the basis for web surfing.
 -Telnet is the basis for virtual terminals.
+
+Presentation Layer:
+Receives data from the application layer as characters and numbers and converts them
+to machine readable format.
+-It translates between character set encodings for example converting ASCII to EBCDIC code
+whenever necessary.This layer can convert different types of data formats to ensure that the 
+sender and receiver are on the same page. 
+Example: If one system uses EBCDIC encoding and another uses ASCII encoding, the Presentation Layer 
+will translate the EBCDIC encoded data into ASCII at the receiving end.
+-This layer compresses data to reduce the size of data to be transmitted and decompresses it at 
+the receiving end to save bandwidth and improve transfer speeds.
+-It ensures that the data is securely transmitted by encrypting it before sending and decrypting 
+it upon arrival.
+In essence, the Presentation Layer acts as the data translator, encryptor, and compressor, ensuring smooth 
+and secure communication between different systems.

@@ -21,19 +21,19 @@
 
 			send.addEventListener('click', function () {
 				const msg = document.querySelector('#msg').value;
-				ws.send(msg);
+				webSocket.send(msg);
 				output.innerHTML += log('Sent', msg);
 			});
 
-			ws.onmessage = function (e) {
+			webSocket.onmessage = function (e) {
 				output.innerHTML += log('Received', e.data);
 			};
 
-			ws.onclose = function (e) {
+			webSocket.onclose = function (e) {
 				output.innerHTML += log('Disconnected', e.code);
 			};
 
-			ws.onerror = function (e) {
+			webSocket.onerror = function (e) {
 				output.innerHTML += log('Error', e.data);
 			};
 		</script>

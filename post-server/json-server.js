@@ -8,11 +8,14 @@ const pathOfForm = path.resolve(process.cwd(), './puplic', 'form.html');
 const form = fs.readFileSync(pathOfForm);
 
 function get(res) {
+	console.log('res.url:', res.url);
 	res.writeHead(200, { 'Content-Type': 'text/html' });
 	res.end(form);
 }
 
 function post(req, res) {
+	console.log('content-type:', req.headers['content-type']);
+
 	if (req.headers['content-type'] !== 'application/json') {
 		error(res, 415);
 		return;

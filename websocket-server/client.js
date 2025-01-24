@@ -7,8 +7,7 @@ const index = fs.readFileSync('./public/index.html');
 
 http
 	.createServer(function (req, res) {
-		res.statusCode = 200;
-		res.setHeader({ 'Content-Type': 'text/html' });
+		res.writeHead(200, { 'Content-Type': 'text/html' });
 		res.end(index);
 	})
 	.listen(8080, function () {

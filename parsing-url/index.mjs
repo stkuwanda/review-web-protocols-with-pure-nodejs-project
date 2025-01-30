@@ -14,3 +14,5 @@ console.log('Pathname:', myUrl.pathname);
 console.log('Search params:', myUrl.searchParams);
 console.log('Search:', myUrl.search);
 console.log('Protocol:', myUrl.protocol);
+console.log('Username:', myUrl.username);
+console.log('Password:', myUrl.password);
